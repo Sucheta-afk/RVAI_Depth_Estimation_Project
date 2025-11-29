@@ -59,7 +59,7 @@ runs/
 # ===========================
 # Dataset directories
 # (these should not go in Git)
-# ===========================
+
 data/
 datasets/
 KITTI/
