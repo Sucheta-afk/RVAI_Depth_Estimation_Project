@@ -1,6 +1,73 @@
+# ===========================
+# Virtual Environments
+# ===========================
 DAV2/dav2-env/
 DAV3/new-env/
-*.pyc
-__pycache__/
+Metric3D/metric3d_env/
+Apple-Depth-pro/depth-pro-env/
+venv/
+.env/
+*.env/
 
-Apple-Depth-pro/depth-pro-env
+# ===========================
+# Python Cache / Build
+# ===========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.pickle
+
+# ===========================
+# IDE / Editor files
+# ===========================
+.vscode/
+.idea/
+*.swp
+
+# ===========================
+# Model Weights / Checkpoints
+# (use Git LFS if needed)
+# ===========================
+*.pth
+*.pt
+*.onnx
+*.bin
+
+# ===========================
+# Logs / Outputs / Large Data
+# ===========================
+**/results_*/
+**/results*/
+*.log
+logs/
+output/
+outputs/
+runs/
+
+# ===========================
+# Kaggle / Jupyter / Colab
+# ===========================
+*.ipynb_checkpoints/
+.kaggle/
+.colab/
+*.npz
+*.npy
+
+# ===========================
+# Dataset directories
+# (these should not go in Git)
+
+data/
+datasets/
+KITTI/
+NYU/
+Common/
+
+# ===========================
+# OS-generated
+# ===========================
+.DS_Store
+Thumbs.db
